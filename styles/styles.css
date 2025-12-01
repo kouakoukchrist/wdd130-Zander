@@ -109,32 +109,3 @@ footer {
   align-items: center;
   text-align: center;
 }
-
-#dark {
-  grid-row: 2;
-  grid-column: 2;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-#feast {
-  grid-row: 4;
-  grid-column: 2;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-#christmas {
-  grid-row: 6;
-  grid-column: 2;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-#darkimg, #feastimg, #christmasimg {
-  width: 100px;
-  height: auto;
-}
