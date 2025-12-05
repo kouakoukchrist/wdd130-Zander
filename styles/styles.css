@@ -109,3 +109,32 @@ footer {
   align-items: center;
   text-align: center;
 }
+
+.script-page main h1, main h2 {
+    text-align: center;
+}
+
+.script-page main section {
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.script-page main section ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.script-page main section li {
+    text-align: center;
+    max-width: 300px;
+}
+
+.script-page main section li img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+}
